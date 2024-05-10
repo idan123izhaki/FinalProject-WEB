@@ -1,0 +1,67 @@
+.home-page-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 88vh;
+    padding-top: 1.5%;
+    background-color: rgba(240, 240, 223, 0.849);
+}
+
+.home-page-inner-containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    margin-top: 1%;
+}
+
+.website-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.website-gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 85%;
+    border: 5px solid black;
+    border-radius: 20%;
+    margin-left: 7%;
+    background-image: url("../../images/image3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: popupAnimation 0.5s;
+}
+
+@keyframes popupAnimation {
+    0% {
+        transform: scale(1); /* Original size */
+    }
+    50% {
+        transform: scale(1.1); /* Increase size */
+    }
+    100% {
+        transform: scale(1); /* Return to original size */
+    }
+}
+
+.company-name {
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

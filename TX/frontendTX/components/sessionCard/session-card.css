@@ -1,0 +1,21 @@
+.card {
+    height: 350px;
+    /* width: 350px; */
+    border: 2px solid black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* cursor: pointer; */
+    /* background: linear-gradient(to right, #4e73df, #8dbdff); */
+    background-color: #d0def0;
+    margin: 2%;
+    padding: 15px;
+    font-size: 20px;
+    transition: transform 0.3s;
+    /* overflow: auto; */
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
